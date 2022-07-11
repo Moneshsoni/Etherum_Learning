@@ -1,0 +1,102 @@
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity "0.8.4";
+//State variables
+contract Test{
+    uint storeDate;
+    constructor() public{
+        storeDate =10;
+    }
+}
+
+//Local variable
+contract Test1{
+    uint storedData;
+    constructor() public{
+        storeDate  =10;
+    }
+
+    function getResult() public view returns(uint){
+        uint a =1 ;
+    }
+}
+
+//Global variables
+// contract Test2{
+//     block.gaslimit()
+//     block.number()
+// }
+
+//Data types
+bool falg =true/false
+int8 to int256
+uint8 to uint256
+string name = "monesh"
+
+address = 20bytes
+
+address coinbaseWallet = 0*153343
+
+4+5
+
++= operator
+
+1. Arithmatic operators
+
++,-,/,*,%,++,--
+2. Comparison operators
+==,!=,>,<,>=
+
+3. Logical operators
+&&,||,!
+4. Bitwise operators
+
+&, |, ^ ,>>,<<
+
+5. Assignment operator
+
+=, +=
+
+a=5
+a+ =2
+a= 8
+
+-=, /=, *=,%=
+
+6. Conditional 
+if condition is true ? do true : false
+
+conditionals
+
+if, if else,else
+if something else if something else
+
+Loop in solidity
+1. while loop
+
+int n= 10
+while n>0
+n--;
+
+
+do while loop int n =10;
+do{
+    n--;
+} while(n>0)
+
+// for loop
+
+for(int i=0; i<n; i++){
+    //do something of i
+}
+
+//function in solidity
+
+
+function getSum(int a, int b) public view returns(int){
+    return a+b;
+}
+
+int a = 10;
+function setValue(int x){
+    a = x;
+}
